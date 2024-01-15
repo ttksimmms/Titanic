@@ -39,3 +39,66 @@ EDA involved gaining insights into various aspects of the Titanic dataset to all
 - Embarkation Port Analysis:
   - Analyze the distribution of passengers based on the embarkation port. Understand the composition of passengers from different ports.
 
+### Data Analysis
+Code worked with
+
+- Survival Analysis by Gender
+  
+  SELECT Sex, AVG(Survived ::numeric) AS
+  survival_rate
+  FROM titanic GROUP BY Sex;
+
+- Class-wise Survival Analysis
+
+  SELECT Pclass, AVG(Survived: :numeric)
+  AS survival_rate
+  FROM titanic
+  GROUP BY Pclass;
+
+- Age Distribution
+  
+  SELECT Age, COUNT (*) AS passenger_count
+  FROM titanic GROUP BY Age ORDER BY Age;
+
+- Fare Distribution:
+  
+  SELECT Fare, COUNT (*) AS
+  passenger_count
+  FROM titanic
+  GROUP BY Fare
+  ORDER BY Fare;
+
+- Passengers with Siblings or Spouses
+
+  SELECT SibSP, COUNT (*) as passenger_count
+  FROM titanic GROUP BY SibSp ORDER BY SibSp;
+
+- Passengers with Parents or Children
+
+  SELECT Parch, COUNT (*) as passenger_count FROM titanic
+  GROUP BY Parch ORDER BY Parch;
+
+- Survival Rate by Age Group
+
+  Select
+    CASE
+      WHEN Age < 18 THEN 'Child'
+      WHEN Age >= 18 AND Age < 60
+  THEN 'Adult'
+      ELST 'Senior'
+    END as age_group,
+    AVG(Survived: :numeric) as
+  survival_rate
+  FROM titanic
+  GROUP BY age_group
+
+- Embarkation Port Analysis
+
+    SELECT Embarked, COUNT (*) as
+    passenger_count
+    FROM titanic
+    GROUP BY Embarked;
+
+### Results/Findings
+
+The analysis results are summarized as follows:
