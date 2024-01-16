@@ -22,7 +22,6 @@ Several data preparation tasks were performed to make the dataset suitable for a
 
 EDA involved gaining insights into various aspects of the Titanic dataset to allow the presentation of meaningful visualizations based on the results, such as:
 
-- Survival Analysis by Gender
 - Class-Wise Survival Analysis
 - Age Distribution
 - Fare Distribution
@@ -34,17 +33,10 @@ EDA involved gaining insights into various aspects of the Titanic dataset to all
 ### Data Analysis
 Code worked with
 
-- Survival Analysis by Gender
-  - Calculate the survival rate for male and female passengers separately. Compare the proportions of survivors and non-survivors based on gender.
-    
-  SELECT Sex, AVG(Survived ::numeric) AS
-  survival_rate
-  FROM titanic GROUP BY Sex;
-
 - Class-wise Survival Analysis
    - Investigate the survival rates in each passenger class. Understand how survival proportions vary among different classes.
      
-  SELECT Pclass, AVG(Survived: :numeric)
+  SELECT Pclass, AVG(Survived)
   AS survival_rate
   FROM titanic
   GROUP BY Pclass;
@@ -102,3 +94,5 @@ Code worked with
 ### Results/Findings
 
 The analysis results are summarized as follows:
+
+
