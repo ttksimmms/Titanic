@@ -23,13 +23,13 @@ Several data preparation tasks were performed to make the dataset suitable for a
 EDA involved gaining insights into various aspects of the Titanic dataset to allow the presentation of meaningful visualizations based on the results, such as:
 
 - Survival Analysis by Gender
-- Class-Wise Survival Analysis:
-- Age Distribution:
-- Fare Distribution:
-- Passengers with Siblings or Spouses:
-- Passengers with Parents or Children:
-- Survival Rate by Age Group:
-- Embarkation Port Analysis:
+- Class-Wise Survival Analysis
+- Age Distribution
+- Fare Distribution
+- Passengers with Siblings or Spouses
+- Passengers with Parents or Children
+- Survival Rate by Age Group
+- Embarkation Port Analysis
 
 ### Data Analysis
 Code worked with
@@ -55,7 +55,7 @@ Code worked with
   SELECT Age, COUNT (*) AS passenger_count
   FROM titanic GROUP BY Age ORDER BY Age;
 
-- Fare Distribution:
+- Fare Distribution
    - Examine the distribution of fares paid by passengers. Understand the range and variability in fare values.
      
   SELECT Fare, COUNT (*) AS
@@ -93,11 +93,11 @@ Code worked with
 
 - Embarkation Port Analysis
   - Analyze the distribution of passengers based on the embarkation port. Understand the composition of passengers from different ports.
-    
-    SELECT Embarked, COUNT (*) as
-    passenger_count
-    FROM titanic
-    GROUP BY Embarked;
+
+  SELECT Embarked, COUNT (*) as
+  passenger_count
+  FROM titanic
+  GROUP BY Embarked;
 
 ### Results/Findings
 
