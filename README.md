@@ -31,7 +31,7 @@ EDA involved gaining insights into various aspects of the Titanic dataset to all
 - Embarkation Port Analysis
 
 ### Data Analysis
-Code worked with
+Queries worked with
 
 - Class-wise Survival Analysis
    - Investigate the survival rates in each passenger class. Understand how survival proportions vary among different classes.
