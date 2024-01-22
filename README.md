@@ -42,7 +42,7 @@ Queries worked with
   GROUP BY Pclass;
 
 - Age Distribution
-  - Explore the distribution of passenger ages. Analyze the age demographics to identify trends and potential outliers.
+  - Explore the distribution of passenger ages and analyze the age demographics.
     
   SELECT Age, COUNT (*) AS passenger_count
   FROM titanic GROUP BY Age ORDER BY Age;
