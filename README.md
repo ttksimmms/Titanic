@@ -103,7 +103,7 @@ FROM titanic GROUP BY Pclass;
 ### Results/Findings
 
 The analysis visualized results are summarized as follows:
-- Class-Wise non-survival Analysis [Download Here](https://public.tableau.com/views/Class-WiseNon-SurvivalRate/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
+- Class-Wise non-survival Analysis [View Here](https://public.tableau.com/views/Class-WiseNon-SurvivalRate/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
 - 
 
 
