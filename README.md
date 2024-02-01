@@ -38,18 +38,16 @@ Queries worked with
       
 SELECT "pclass",
 	ROUND(AVG(CASE WHEN "survived" = 0
-THEN 1.0 ELSE 0.0 END) * 100) AS
+THEN 1 ELSE 0 END) * 100) AS
 non_survival_rate_percentage
 FROM titanic
 GROUP BY "pclass";
 
 - Class-wise Survival Analysis
    - Investigate the survival rates in each passenger class. Understand how survival proportions vary among different classes.
-     
-  SELECT Pclass, AVG(Survived)
-  AS survival_rate
-  FROM titanic
-  GROUP BY Pclass;
+
+SELECT Pclass, ROUND(AVG(Survived)*100) AS survival_rate
+FROM titanic GROUP BY Pclass;
 
 - Age Distribution
   - Explore the distribution of passenger ages and analyze the age demographics.
