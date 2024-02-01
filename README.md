@@ -22,7 +22,7 @@ Several data preparation tasks were performed to make the dataset suitable for a
 
 EDA involved gaining insights into various aspects of the Titanic dataset to allow the presentation of meaningful visualizations based on the results, such as:
 
-- Class-Wise Survival Analysis
+- Class-Wise Survival and Non-Survival Analysis
 - Age Distribution
 - Fare Distribution
 - Passengers with Siblings or Spouses
@@ -81,13 +81,14 @@ FROM titanic GROUP BY Pclass;
     
   SELECT
     CASE
+	WHEN Age IS NULL THEN 'Unknown'
       WHEN Age < 18 THEN 'Child'
       WHEN Age >= 18 AND Age < 60
   THEN 'Adult'
       ELSE 'Senior'
     END as age_group,
-    AVG(Survived: :numeric) as
-  survival_rate
+    ROUND(AVG("survived") * 100)
+	AS survival_rate
   FROM titanic
   GROUP BY age_group
 
