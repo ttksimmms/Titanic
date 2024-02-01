@@ -33,6 +33,16 @@ EDA involved gaining insights into various aspects of the Titanic dataset to all
 ### Data Analysis
 Queries worked with
 
+- Class-wise non-survival Analysis
+    - Investigate the non-survival rates in each passenger class. Understand how non-survival varies among the different classes.
+      
+SELECT "pclass",
+	ROUND(AVG(CASE WHEN "survived" = 0
+THEN 1.0 ELSE 0.0 END) * 100) AS
+non_survival_rate_percentage
+FROM titanic
+GROUP BY "pclass";
+
 - Class-wise Survival Analysis
    - Investigate the survival rates in each passenger class. Understand how survival proportions vary among different classes.
      
