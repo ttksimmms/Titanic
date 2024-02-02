@@ -109,7 +109,7 @@ The analysis visualized results are summarized as follows:
 - Class-Wise Survival Analysis [View Here](https://public.tableau.com/views/Class-WiseSurvivalAnalysis/Class-WiseSurvivalAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- As shown in the visual findings. Pclass 1 has the highest percentage of people who survived.
  
-  - Age Distribution Analysis [View Here](https://public.tableau.com/views/AgeDistribution_17068894085370/AgeDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
+- Age Distribution Analysis [View Here](https://public.tableau.com/views/AgeDistribution_17068894085370/AgeDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
     	- Age distribution visualization shows 177 passengers who's age is unknown.
 
 
