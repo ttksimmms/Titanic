@@ -105,6 +105,7 @@ FROM titanic GROUP BY Pclass;
 The analysis visualized results are summarized as follows:
 - Class-Wise non-survival Analysis [View Here](https://public.tableau.com/views/Class-WiseNon-SurvivalRate/Sheet2?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- As portrayed in the visual findings, Pclass 3 has the highest non-survival rate at 76%, while Pclass 2 is at 53% and Pclass 1 is at 37%
-- 
+- Class-Wise Survival Analysis [View Here](https://public.tableau.com/views/Class-WiseSurvivalAnalysis/Class-WiseSurvivalAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	- As shown in the visual findings. Pclass 1 has the highest percentage of people who survived.
 
 
