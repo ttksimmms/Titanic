@@ -113,15 +113,15 @@ The break-down analysis visualized results are summarized as follows:
  
 - Age Distribution Analysis [View Here](https://public.tableau.com/views/AgeDistribution_17068894085370/AgeDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
     	- Age distribution visualization shows 177 passengers who's age is unknown.
-
+  
+- Fare Distribution [View Here](https://public.tableau.com/views/FareDistribution_17071497540020/FareDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	- Visualization shows the fare distribution which ranges from 0 to 512.33. The highest amount of passenger is 43 and they fall in the fare group of 8.05. There are 15 passengers that fall into the fare group of 0 and 3 passengers that fall into the highest fare group of 512.33
+  	  
 - Passengers with Siblings or Spouses [View Here](https://public.tableau.com/views/PassengerswithSiblingsSpouse/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- The passengers with siblings or spouses visualization shows that there are over 283 passengers that have over 1 sibling or spouse and over 608 passengers that has neither.
 
 - Passengers with Parents or Children [View Here](https://public.tableau.com/views/PassengerswithParentsandchildren/PassengerswithParentsandChildren?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- Visualizations shows 208 passengers that has parents/children and 678 passengers without either.
-
-- Fare Distribution [View Here](https://public.tableau.com/views/FareDistribution_17071497540020/FareDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
-  	- Visualization shows the fare distribution which ranges from 0 to 512.33. The highest amount of passenger is 43 and they fall in the fare group of 8.05. There are 15 passengers that fall into the fare group of 0 and 3 passengers that fall into the highest fare group of 512.33
   
 - Survival Rate By Age Group [View Here](https://public.tableau.com/views/SurvivalRatebyAgeGroup/SurvivalRatebyAgeGroup?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- There are 29 passengers with unknown age groups, 27 Seniors, 39 Adult and 54 Children. 
