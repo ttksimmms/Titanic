@@ -115,4 +115,10 @@ The analysis visualized results are summarized as follows:
 - Passengers with Siblings or Spouses [View Here](https://public.tableau.com/views/PassengerswithSiblingsSpouse/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- The passengers with siblings or spouses visualization shows that there are over 283 passengers that have over 1 sibling or spouse and over 608 passengers that has neither.
 
+- Passengers with Parents or Children [View Here](https://public.tableau.com/views/PassengerswithParentsandchildren/PassengerswithParentsandChildren?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	- Visualizations shows 208 passengers that has parents/children and 678 passengers without either.
+
+
+  
+
 
