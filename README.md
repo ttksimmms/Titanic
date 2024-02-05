@@ -112,7 +112,7 @@ The break-down analysis visualized results are summarized as follows:
   	- As shown in the visual findings. Pclass 1 has the highest percentage of people who survived.
  
 - Age Distribution Analysis [View Here](https://public.tableau.com/views/AgeDistribution_17068894085370/AgeDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
-    	- Age distribution visualization shows 177 passengers who's age is unknown.
+	- Age distribution visualization shows 177 passengers who's age is unknown.
   
 - Fare Distribution [View Here](https://public.tableau.com/views/FareDistribution_17071497540020/FareDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- Visualization shows the fare distribution which ranges from 0 to 512.33. The highest amount of passenger is 43 and they fall in the fare group of 8.05. There are 15 passengers that fall into the fare group of 0 and 3 passengers that fall into the highest fare group of 512.33
@@ -126,3 +126,5 @@ The break-down analysis visualized results are summarized as follows:
 - Survival Rate By Age Group [View Here](https://public.tableau.com/views/SurvivalRatebyAgeGroup/SurvivalRatebyAgeGroup?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- There are 29 passengers with unknown age groups, 27 Seniors, 39 Adult and 54 Children. 
 
+- Embarkation Port Analysis [View Here](https://public.tableau.com/views/EmbarkationPortAnalysis/EmbarkationPortAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	- The embarkation port analysis has 2 passengers with a null value of port. The embarked port S has the highest total passenger count of 644.
