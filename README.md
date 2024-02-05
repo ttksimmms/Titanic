@@ -123,5 +123,6 @@ The break-down analysis visualized results are summarized as follows:
 - Fare Distribution [View Here](https://public.tableau.com/views/FareDistribution_17071497540020/FareDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- Visualization shows the fare distribution which ranges from 0 to 512.33. The highest amount of passenger is 43 and they fall in the fare group of 8.05. There are 15 passengers that fall into the fare group of 0 and 3 passengers that fall into the highest fare group of 512.33
   
-
+- Survival Rate By Age Group [View Here](https://public.tableau.com/views/SurvivalRatebyAgeGroup/SurvivalRatebyAgeGroup?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	- There are 29 passengers with unknown age groups, 27 Seniors, 39 Adult and 54 Children. 
 
