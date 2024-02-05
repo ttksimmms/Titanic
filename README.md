@@ -112,4 +112,7 @@ The analysis visualized results are summarized as follows:
 - Age Distribution Analysis [View Here](https://public.tableau.com/views/AgeDistribution_17068894085370/AgeDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
     	- Age distribution visualization shows 177 passengers who's age is unknown.
 
+- Passengers with Siblings or Spouses [View Here](https://public.tableau.com/views/PassengerswithSiblingsSpouse/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	- The passengers with siblings or spouses visualization shows that there are over 283 passengers that have over 1 sibling or spouse and over 608 passengers that has neither.
+
 
