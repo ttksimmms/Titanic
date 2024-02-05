@@ -120,7 +120,8 @@ The break-down analysis visualized results are summarized as follows:
 - Passengers with Parents or Children [View Here](https://public.tableau.com/views/PassengerswithParentsandchildren/PassengerswithParentsandChildren?:language=en-US&:display_count=n&:origin=viz_share_link)
   	- Visualizations shows 208 passengers that has parents/children and 678 passengers without either.
 
-
+- Fare Distribution [View Here](https://public.tableau.com/views/FareDistribution_17071497540020/FareDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
+  	Visualization shows the fare distribution which ranges from 0 to 512.33. The highest amount of passenger is 43 and they fall in the fare group of 8.05. There are 15 passengers that fall into the fare group of 0 and 3 passengers that fall into the highest fare group of 512.33
   
 
 
