@@ -108,7 +108,7 @@ Compacted visualization: The break-down analysis visualized results are summariz
   	- As portrayed in the visual findings, Pclass 3 has the highest non-survival rate at 76%, while Pclass 2 is at 53% and Pclass 1 is at 37%
   	  
 - Class-Wise Survival Analysis [View Here](https://public.tableau.com/views/Class-WiseSurvivalAnalysis/Class-WiseSurvivalAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)
-  	- As shown in the visual findings. Pclass 1 has the highest percentage of people who survived.
+  	- As shown in the visual findings, Pclass 1 has the highest percentage of people who survived.
  
 - Age Distribution Analysis [View Here](https://public.tableau.com/views/AgeDistribution_17068894085370/AgeDistribution?:language=en-US&:display_count=n&:origin=viz_share_link)
 	- Age distribution visualization shows 177 passengers who's age is unknown.
