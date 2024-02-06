@@ -1,6 +1,6 @@
 # Titanic
 ## Project Overview
-Welcome to my SQL Skills Showcase repository! This project will demonstrate my knowledge and proficiency in SQL using the famous Titanic Dataset. This repository serves as a testament to my ability to extract valuable information from real-world datasets and present findings through SQL queries. It is a demonstration of my proficiency in database management, querying, and data analysis.
+Welcome to my SQL Skills Showcase repository! This project will demonstrate my knowledge and proficiency in SQL using the famous [Titanic Dataset](https://www.kaggle.com/datasets/shuofxz/titanic-machine-learning-from-disaster/data). This repository serves as a testament to my ability to extract valuable information from real-world datasets and present findings through SQL queries. It is a demonstration of my proficiency in database management, querying, and data analysis.
 ### Tools
 - Excel - Data Cleaning 
   - [Download here](https://www.kaggle.com/datasets/shuofxz/titanic-machine-learning-from-disaster/download?datasetVersionNumber=1) 
